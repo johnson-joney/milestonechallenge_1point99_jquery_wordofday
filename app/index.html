@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap jquery project</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<script src="jquery.min.js"></script>
+	<script src="bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="index.js"></script>
+</head>
+<body>
+<div class="accordion" id="todayWord" onclick="wordDay()">Word of the Day</div>
+<div class ="panel">
+<div class="container">
+    <div class="row">
+        <div class="form-group" style="width:100%;">
+				<input type="date" name="getDate" id="date" class="form-control col-12 col-md-3">
+				<input type="submit" id="submitdate" onclick="getDate()" class="btn btn-info">
+				
+		</div>
+    </div>
+</div>
+<div class="container">
+		<div class="row">
+			<div class="col-xl-12 mx-auto">
+				<p id="wordofday"></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xl-12 mx-auto">
+				<p id="defin"></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xl-12 mx-auto">
+				<p><img src=""></p>
+			</div>
+		</div>
+</div>
+</div>
+</body>
+</html>

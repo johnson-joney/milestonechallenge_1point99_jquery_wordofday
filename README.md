@@ -1,0 +1,1 @@
+The project deals with finding out the word of the day using the wordnik public api. This is done using jquery , html and bootstrap.
